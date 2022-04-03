@@ -1,20 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import CustomLink from '../CustomLink/CustomLink';
+// import React from 'react';
+// import { Link } from 'react-router-dom';
+// import CustomLink from '../CustomLink/CustomLink';
 
-const Header = () => {
-    return (
-        <div>
-    <h1>Welcome to my fancy Routing !!!</h1>
-    <nav>
-       <CustomLink to='/'>Home</CustomLink>
-       <CustomLink to='/friends'>Friends</CustomLink>
-       <Link to="/posts">Posts</Link>
-       <CustomLink to='/about'>About</CustomLink>
-    </nav>
+// const Header = () => {
+//     return (
+//         <div>
+//     <h1>Welcome to my fancy Routing !!!</h1>
+//     <nav>
+//        <CustomLink to='/'>Home</CustomLink>
+//        <CustomLink to='/friends'>Friends</CustomLink>
+//        <Link to="/posts">Posts</Link>
+//        <CustomLink to='/about'>About</CustomLink>
+//     </nav>
             
-        </div>
-    );
-};
+//         </div>
+//     );
+// };
 
-export default Header;
+// export default Header;
